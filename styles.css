@@ -34,3 +34,15 @@ body {
     background-color: brown;
     border-radius: 10px;
 }
+
+#score {
+    position: absolute;
+    font-size: 24px;
+    background-color: black;
+    color: aliceblue;
+    padding: 16px 72px;
+    text-align: center;
+    left: 160px;
+    bottom: 100px;
+    display: none;
+}
