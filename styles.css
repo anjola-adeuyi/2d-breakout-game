@@ -3,11 +3,14 @@ body {
     padding: 0;
     background-color: antiquewhite;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .grid {
     position: relative;
+    margin-top: 50px;
     width: 560px;
     height: 300px;
     border: 1px solid rgb(38, 3, 71);
@@ -45,4 +48,13 @@ body {
     left: 160px;
     bottom: 100px;
     display: none;
+}
+
+.point {
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    padding: 24px;
+    width: 100vw;
+    text-align: center;
 }
