@@ -26,3 +26,11 @@ body {
     height: 20px;
     background-color: rgb(38, 3, 71);
 }
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 10px;
+}
